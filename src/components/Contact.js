@@ -1,10 +1,16 @@
 function Contact() {
   return (
-    <section>
+    <body>
       <h3>Contact</h3>
-      <article></article>
-    </section>
+      <article>
+        <main class="container">
+            
+        </main>
+      </article>
+    </body>
   );
 }
 
 export default Contact;
+
+// TODO connect link should open email (mailto:)

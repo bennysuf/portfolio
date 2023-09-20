@@ -1,10 +1,16 @@
 function About() {
-    return ( 
-        <section>
-            <h3>About Me</h3>
+  return (
+    <section>
+      <body>
+        <h3>About Me</h3>
+        <article>
+          <main class="container">
             <pre>hello itsa me, Benny</pre>
-        </section>
-     );
+          </main>
+        </article>
+      </body>
+    </section>
+  );
 }
 
 export default About;

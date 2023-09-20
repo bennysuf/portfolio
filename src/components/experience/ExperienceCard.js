@@ -2,19 +2,21 @@ import skillSet from "./Skills";
 
 function ExperienceCard() {
   return (
-    <section>
+    <body>
       <h3>Technical Skills</h3>
       <article>
-        {skillSet.map((skill) => {
-          return (
-            <>
-              {skill.name}
-              <br />
-            </>
-          );
-        })}
+        <main class="container">
+          {skillSet.map((skill) => {
+            return (
+              <>
+                {skill.name}
+                <br />
+              </>
+            );
+          })}
+        </main>
       </article>
-    </section>
+    </body>
   );
 }
 
