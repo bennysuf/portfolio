@@ -1,0 +1,88 @@
+const skillSet = [
+  {
+    id: 1,
+    name: "Javascript",
+    icon: "",
+    type: "language",
+    category: "frontend",
+  },
+  {
+    id: 2,
+    name: "React.js",
+    icon: "",
+    type: "framework",
+    category: "frontend",
+  },
+  {
+    id: 3,
+    name: "Ruby",
+    icon: "",
+    type: "language",
+    category: "backend",
+  },
+  {
+    id: 4,
+    name: "Rails",
+    icon: "",
+    type: "framework",
+    category: "backend",
+  },
+  {
+    id: 5,
+    name: "Python",
+    icon: "",
+    type: "language",
+    category: "backend",
+  },
+  {
+    id: 6,
+    name: "HTML",
+    icon: "",
+    type: "language",
+    category: "frontend",
+  },
+  {
+    id: 7,
+    name: "CSS",
+    icon: "",
+    type: "language",
+    category: "frontend",
+  },
+  {
+    id: 8,
+    name: "SQL",
+    icon: "",
+    type: "language",
+    category: "backend",
+  },
+  {
+    id: 9,
+    name: "PostgreSQL",
+    icon: "",
+    type: "database",
+    category: "backend",
+  },
+  {
+    id: 10,
+    name: "SQLite",
+    icon: "",
+    type: "database",
+    category: "backend",
+  },
+  {
+    id: 11,
+    name: "Firebase",
+    icon: "",
+    type: "deployment",
+    category: "devops",
+  },
+  // {
+  //     id: NaN,
+  //     name: "",
+  // icon: "",
+  //     type: "",
+  // category: "",
+  // },
+];
+
+export default skillSet;
