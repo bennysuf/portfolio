@@ -1,0 +1,55 @@
+ .portfolio_links {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.skill-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-block: .5rem;
+    justify-content: center;
+}
+.skills{
+    border-radius: 15px;
+    background: rgba(125, 145, 133, 0.2);
+    padding: 0 1rem;
+    font-size: 14px;
+    border: .5px solid #000000;
+}
+
+.navbar {
+    position: fixed;
+    bottom: 3rem;
+    align-items: center;
+    justify-content: center;
+    background: rgba(151, 151, 151, 0.5);
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    transform: translateX(-50%);
+    left: 50%
+}
+
+.outer-article {
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+    border-radius: 20px;
+    background: rgba(10, 83, 48, 0.212);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.inner-article {
+    border-radius: 20px;
+    /* background: rgba(56, 157, 118, 0.328); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.article-header {
+    background: rgba(78, 168, 134, 0.142);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
