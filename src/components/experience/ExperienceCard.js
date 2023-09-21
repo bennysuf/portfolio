@@ -2,18 +2,20 @@ import skillSet from "./Skills";
 
 function ExperienceCard() {
   return (
-    <body>
+    <body id="experience">
       <h3>Technical Skills</h3>
-      <article>
+      <article className="outer-article">
         <main class="container">
-          {skillSet.map((skill) => {
-            return (
-              <>
-                {skill.name}
-                <br />
-              </>
-            );
-          })}
+          <article className="inner-article">
+            {skillSet.map((skill) => {
+              return (
+                <div key={skill.id}>
+                  {skill.name}
+                  <br />
+                </div>
+              );
+            })}
+          </article>
         </main>
       </article>
     </body>
