@@ -1,15 +1,13 @@
 function About() {
   return (
-    <section>
-      <body>
+      <body id="about">
         <h3>About Me</h3>
-        <article>
+        <article className="outer-article">
           <main class="container">
             <pre>hello itsa me, Benny</pre>
           </main>
         </article>
       </body>
-    </section>
   );
 }
 
