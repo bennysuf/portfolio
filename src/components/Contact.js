@@ -1,8 +1,8 @@
 function Contact() {
   return (
-    <body>
+    <body id="contact">
       <h3>Contact</h3>
-      <article>
+      <article className="outer-article">
         <main class="container">
             
         </main>
