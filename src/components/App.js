@@ -8,7 +8,7 @@ import "@picocss/pico/css/pico.min.css";
 
 function App() {
   return (
-    <div className="App" style={{textAlign:"center"}}>
+     <div id="app">
       <NavBar />
       <Header />
       <ProjectCard />
