@@ -4,7 +4,6 @@ function ProjectCard() {
   return (
     <body id="project">
       <h3>Projects</h3>
-      {/* <article className="card-grid"> */}
       <article className="outer-article">
         <main class="container">
           <div class="grid">
@@ -20,11 +19,10 @@ function ProjectCard() {
                     <header className="article-header">{name}</header>
                     <div className="skill-container">{techSkills}</div>
                     <p>{description}</p>
-                    <div className="portfolio_links">
+                    <div className="portfolio-links">
                       {github && (
                         <a
                           href={github}
-                          className="btn btn-primary"
                           target="_blank"
                           rel="noreferrer"
                         >
@@ -34,7 +32,6 @@ function ProjectCard() {
                       {video && (
                         <a
                           href={video}
-                          className="btn btn-primary"
                           target="_blank"
                           rel="noreferrer"
                         >
