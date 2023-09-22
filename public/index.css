@@ -1,4 +1,6 @@
  #app {
+    margin-top: 100px;
+    margin-bottom: 100px;
     text-align: center;
  }
  
@@ -95,4 +97,31 @@
 .contact-icon {
     width: 40px;
     height: auto;
+}
+
+.header-buttons {
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+}
+
+.header-button {
+    width: 125px;
+    margin-bottom: 40px;
+}
+
+.header-icons {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.header-icon {
+    width: 30px;
+    height: auto;
+    display: flex;
+}
+
+#home {
+    justify-content: center;
+    margin-bottom: 40px;
 }
