@@ -3,7 +3,7 @@ import { FiHome } from "react-icons/fi";
 import { PiCodeBold } from "react-icons/pi";
 import { FaRegUser } from "react-icons/fa";
 import { FaRegEnvelope } from "react-icons/fa";
-import { MdLanguage } from "react-icons/md";
+import {PiStackBold} from "react-icons/pi";
 
 function NavBar() {
   return (
@@ -28,10 +28,10 @@ function NavBar() {
           <Link
             smooth
             to="#experience"
-            data-tooltip="Tech skills"
+            data-tooltip="Tech stack"
             data-placement="bottom"
           >
-            <MdLanguage />
+            <PiStackBold />
           </Link>
         </li>
         <li key="about">
