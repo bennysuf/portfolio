@@ -1,38 +1,52 @@
 import { HashLink as Link } from "react-router-hash-link";
+import { FiHome } from "react-icons/fi";
+import { PiCodeBold } from "react-icons/pi";
+import { FaRegUser } from "react-icons/fa";
+import { FaRegEnvelope } from "react-icons/fa";
+import { MdLanguage } from "react-icons/md";
 
 function NavBar() {
   return (
     <nav className="navbar">
       <ul>
-        <li>
+        <li key="home">
           <Link smooth to="#home" data-tooltip="Home" data-placement="bottom">
-            home
-            {/* TODO add icon here instead of word */}
+            <FiHome />
           </Link>
         </li>
-        <li>
+        <li key="project">
           <Link
             smooth
             to="#project"
             data-tooltip="Projects"
             data-placement="bottom"
           >
-            project
+            <PiCodeBold />
           </Link>
         </li>
-        <li>
+        <li key="experience">
+          <Link
+            smooth
+            to="#experience"
+            data-tooltip="Tech skills"
+            data-placement="bottom"
+          >
+            <MdLanguage />
+          </Link>
+        </li>
+        <li key="about">
           <Link smooth to="#about" data-tooltip="About" data-placement="bottom">
-            about
+            <FaRegUser />
           </Link>
         </li>
-        <li>
+        <li key="contact">
           <Link
             smooth
             to="#contact"
             data-tooltip="Contact"
             data-placement="bottom"
           >
-            contact
+            <FaRegEnvelope />
           </Link>
         </li>
       </ul>
