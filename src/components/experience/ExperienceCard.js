@@ -3,7 +3,7 @@ import skillSet from "./Skills";
 function ExperienceCard() {
   return (
     <body id="experience">
-      <h3>Technical Skills</h3>
+      <h3>Technical Stack</h3>
       <article className="outer-article">
         <main class="container">
           <article className="inner-article experience-container">
