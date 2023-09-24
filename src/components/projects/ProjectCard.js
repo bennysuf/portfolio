@@ -1,6 +1,11 @@
 import projectList from "./ProjectList";
+// import { useState } from "react";
 
-function ProjectCard() {
+function ProjectCard({ theme }) {
+  const article_header_className = `article-header ${
+    theme ? "article-header-dark" : "article-header-light"
+  }`;
+
   return (
     <body id="project">
       <h3>Projects</h3>
@@ -16,25 +21,17 @@ function ProjectCard() {
               return (
                 <div key={id}>
                   <article className="inner-article">
-                    <header className="article-header">{name}</header>
+                    <header className={article_header_className}>{name}</header>
                     <div className="skill-container">{techSkills}</div>
                     <p>{description}</p>
                     <div className="portfolio-links">
                       {github && (
-                        <a
-                          href={github}
-                          target="_blank"
-                          rel="noreferrer"
-                        >
+                        <a href={github} target="_blank" rel="noreferrer">
                           Github
                         </a>
                       )}
                       {video && (
-                        <a
-                          href={video}
-                          target="_blank"
-                          rel="noreferrer"
-                        >
+                        <a href={video} target="_blank" rel="noreferrer">
                           Video
                         </a>
                       )}
