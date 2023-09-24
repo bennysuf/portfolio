@@ -1,11 +1,13 @@
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { AiOutlineMail } from "react-icons/ai";
 
-function Contact() {
+function Contact({outer_article_className}) {
+
   return (
     <body id="contact">
       <h3>Contact</h3>
-      <article className="outer-article contact-container">
+      <article className={outer_article_className}>
+      {/* <article className="outer-article contact-container"> */}
         <main class="container">
           <div class="grid">
             <div>

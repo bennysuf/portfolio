@@ -1,10 +1,10 @@
 import skillSet from "./Skills";
 
-function ExperienceCard() {
+function ExperienceCard({outer_article_className}) {
   return (
     <body id="experience">
       <h3>Technical Stack</h3>
-      <article className="outer-article">
+      <article className={outer_article_className}>
         <main class="container">
           <article className="inner-article experience-container">
             {skillSet.map((skill) => {

@@ -1,8 +1,9 @@
-function About() {
+function About({outer_article_className}) {
+  
   return (
     <body id="about">
       <h3>About Me</h3>
-      <article className="outer-article">
+      <article className={outer_article_className}>
         <main class="container">
           <article className="inner-article">
           <p>

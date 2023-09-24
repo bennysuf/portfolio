@@ -1,7 +1,7 @@
 import projectList from "./ProjectList";
 // import { useState } from "react";
 
-function ProjectCard({ theme }) {
+function ProjectCard({ theme, outer_article_className }) {
   const article_header_className = `article-header ${
     theme ? "article-header-dark" : "article-header-light"
   }`;
@@ -9,7 +9,7 @@ function ProjectCard({ theme }) {
   return (
     <body id="project">
       <h3>Projects</h3>
-      <article className="outer-article">
+      <article className={outer_article_className}>
         <main class="container">
           <div class="grid">
             {projectList.map((project) => {
