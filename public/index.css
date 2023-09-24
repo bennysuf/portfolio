@@ -22,7 +22,6 @@
 .skills{
     border-radius: 15px;
     background: rgba(125, 145, 133, 0.2);
-    /* ! color ^ */
     padding: 0 1rem;
     font-size: 14px;
     border: .5px solid #000000;
@@ -39,7 +38,6 @@
     align-items: center;
     justify-content: center;
     background: rgba(151, 151, 151, 0.5);
-    /* ! color ^ */
     backdrop-filter: blur(10px);
     border-radius: 50px;
     border-right: 10px;
@@ -54,9 +52,14 @@
     justify-content: center;
     margin: 5%;
     border-radius: 20px;
-    background: rgba(10, 83, 48, 0.212);
-    /* ! color ^ */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.outer-article-dark {
+    background: rgba(208, 141, 8, 0.212);
+    /* background: rgba(24, 123, 75, 0.212); */
+}
+.outer-article-light {
+    background: rgba(10, 83, 48, 0.212);
 }
 
 .inner-article {
@@ -65,18 +68,18 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.article-header-dark{
-    background: rgba(78, 166, 132, 0.322);
-}
-.article-header-light{
-    background: rgba(78, 168, 134, 0.142);
-}
 
 .article-header {
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     font-size: 20px;
     font-weight: bold;
+}
+.article-header-dark{
+    background: rgba(78, 166, 132, 0.322);
+}
+.article-header-light{
+    background: rgba(78, 168, 134, 0.142);
 }
 
 .experience-container {
@@ -87,10 +90,10 @@
     align-items: center;
 }
 
-.contact-container {
-    /* font-size: 20px;
-    font-weight: bold; */
-}
+/* .contact-container {
+    font-size: 20px;
+    font-weight: bold;
+} */
 
 .contact-button {
    width: 160px;
