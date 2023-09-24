@@ -5,30 +5,39 @@ import ProjectCard from "./projects/ProjectCard";
 import ExperienceCard from "./experience/ExperienceCard";
 import Header from "./Header";
 import "@picocss/pico/css/pico.min.css";
-import {useState, useEffect} from "react"
+import { useState, useEffect } from "react";
 
 function App() {
-  const [theme, setTheme] = useState(window.matchMedia('(prefers-color-scheme: dark)'))
+  const [theme, setTheme] = useState(
+    window.matchMedia("(prefers-color-scheme: dark)")
+  );
 
-  useEffect(()=> {
-    setTheme(window.matchMedia('(prefers-color-scheme: dark)'))
-  }, [])
+  useEffect(() => {
+    setTheme(window.matchMedia("(prefers-color-scheme: dark)"));
+  }, []);
 
   // const theme = document.getElementsByTagName("html")
   // console.log("app", theme[0].dataset);
   // theme[0].dataset.theme = "dark"
 
-  // const theme = window.matchMedia('(prefers-color-scheme: dark)') // gives a boolean value 
-  // console.log("theme", theme);
+  // const theme = window.matchMedia('(prefers-color-scheme: dark)') // gives a boolean value
+  // console.log("theme", theme.matches);
+
+  const outer_article_className = `outer-article ${
+    theme.matches ? "outer-article-dark" : "outer-article-light"
+  }`;
 
   return (
-     <div id="app" >
+    <div id="app">
       <NavBar />
-      <Header theme={theme.matches}/>
-      <ProjectCard theme={theme.matches}/>
-      <ExperienceCard />
-      <About />
-      <Contact />
+      <Header theme={theme.matches} />
+      <ProjectCard
+        theme={theme.matches}
+        outer_article_className={outer_article_className}
+      />
+      <ExperienceCard outer_article_className={outer_article_className} />
+      <About outer_article_className={outer_article_className} />
+      <Contact outer_article_className={outer_article_className} />
     </div>
   );
 }
