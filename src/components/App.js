@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div id="app">
-      <NavBar />
+      <NavBar theme={theme.matches}/>
       <Header theme={theme.matches} />
       <ProjectCard
         theme={theme.matches}
