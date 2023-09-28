@@ -5,9 +5,12 @@ import { FaRegUser } from "react-icons/fa";
 import { FaRegEnvelope } from "react-icons/fa";
 import {PiStackBold} from "react-icons/pi";
 
-function NavBar() {
+function NavBar({theme}) {
+
+  const navbar_className = `navbar ${theme ? "button-dark" : "button-light"}`
+
   return (
-    <nav className="navbar">
+    <nav className={navbar_className}>
       <ul>
         <li key="home">
           <Link smooth to="#home" data-tooltip="Home" data-placement="bottom">
