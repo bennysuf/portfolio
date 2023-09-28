@@ -14,6 +14,7 @@ function Header({theme}) {
       <div class="grid" className="header-buttons">
         <a
           href="https://github.com"
+          // TODO add resume link
           role="button"
           target="_blank"
           rel="noreferrer"
@@ -24,7 +25,6 @@ function Header({theme}) {
         <br />
         <a
           role="button"
-          //   href="mailto:bennysuf@gmail.com"
           href="#contact"
           className={button_className}
         >
@@ -34,7 +34,6 @@ function Header({theme}) {
       <div class="grid" className={icons_className}>
         <a
           href="https://www.linkedin.com/in/bennysufrin/"
-          // className="contact-button"
           target="_blank"
           rel="noreferrer"
           data-tooltip="LinkedIn"
@@ -44,7 +43,6 @@ function Header({theme}) {
         </a>
         <a
           href="https://github.com/bennysuf"
-          // className="contact-button"
           target="_blank"
           rel="noreferrer"
           data-tooltip="Github"
@@ -56,7 +54,6 @@ function Header({theme}) {
           href="mailto:bennysuf@gmail.com"
           data-tooltip="Email"
           data-placement="bottom"
-          // className="contact-button"
         >
           <MdOutlineMail className="header-icon" />
         </a>
