@@ -21,7 +21,7 @@ function App() {
   // theme[0].dataset.theme = "dark"
 
   // const theme = window.matchMedia('(prefers-color-scheme: dark)') // gives a boolean value
-  // console.log("theme", theme.matches);
+  // console.log("theme", theme);
 
   const outer_article_className = `outer-article ${
     theme.matches ? "outer-article-dark" : "outer-article-light"
@@ -37,7 +37,7 @@ function App() {
       />
       <ExperienceCard outer_article_className={outer_article_className} />
       <About outer_article_className={outer_article_className} />
-      <Contact outer_article_className={outer_article_className} />
+      <Contact outer_article_className={outer_article_className} theme={theme.matches}/>
     </div>
   );
 }
@@ -46,6 +46,6 @@ export default App;
 
 // TODO have fake drop down with a down or up arrow, when clicked, change state, ternary to see if arrow is up or down, display card or a bar with component title
 // TODO add data-theme="dark" to top element, have onclick to change it
-// TODO depending on the theme, change classnames and display color for that theme
 // TODO resize for mobile
 // TODO make filter for tech stack
+// TODO overwrite button color 
