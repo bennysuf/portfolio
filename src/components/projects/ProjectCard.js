@@ -1,7 +1,8 @@
 import projectList from "./ProjectList";
-// import { useState } from "react";
 
 function ProjectCard({ theme, outer_article_className }) {
+
+  const link_className = `${theme ? "button-dark" : "button-light"}`;
   const article_header_className = `article-header ${
     theme ? "article-header-dark" : "article-header-light"
   }`;
@@ -26,12 +27,22 @@ function ProjectCard({ theme, outer_article_className }) {
                     <p>{description}</p>
                     <div className="portfolio-links">
                       {github && (
-                        <a href={github} target="_blank" rel="noreferrer">
+                        <a
+                          href={github}
+                          target="_blank"
+                          rel="noreferrer"
+                          className={link_className}
+                        >
                           Github
                         </a>
                       )}
                       {video && (
-                        <a href={video} target="_blank" rel="noreferrer">
+                        <a
+                          href={video}
+                          target="_blank"
+                          rel="noreferrer"
+                          className={link_className}
+                        >
                           Video
                         </a>
                       )}
