@@ -2,7 +2,11 @@ import { MdOutlineMail } from "react-icons/md";
 import { TbBrandLinkedin } from "react-icons/tb";
 import { FiGithub } from "react-icons/fi";
 
-function Header() {
+function Header({theme}) {
+
+  const button_className = `header-button ${theme ? "button-dark" : "button-light"}`
+  const icons_className = `header-icons ${theme ? "header-icons-dark" : "header-icons-light"}`
+
   return (
     <body id="home">
       <h3>Benny Sufrin</h3>
@@ -13,7 +17,7 @@ function Header() {
           role="button"
           target="_blank"
           rel="noreferrer"
-          className="header-button"
+          className={button_className}
         >
           Resume
         </a>
@@ -22,12 +26,12 @@ function Header() {
           role="button"
           //   href="mailto:bennysuf@gmail.com"
           href="#contact"
-          className="header-button"
+          className={button_className}
         >
           Connect
         </a>
       </div>
-      <div class="grid" className="header-icons">
+      <div class="grid" className={icons_className}>
         <a
           href="https://www.linkedin.com/in/bennysufrin/"
           // className="contact-button"
