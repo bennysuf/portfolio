@@ -1,3 +1,10 @@
+/* :root{
+    --primary: #00897b;
+    --primary-hover: #28b0a2;
+    --primary-focus: rgba(0, 137, 123, .25);
+    --primary-inverse: #FFF
+} */
+
  #app {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -55,11 +62,12 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .outer-article-dark {
-    background: rgba(208, 141, 8, 0.212);
+    background: rgba(117, 230, 219, 0.277);
     /* background: rgba(24, 123, 75, 0.212); */
 }
 .outer-article-light {
-    background: rgba(10, 83, 48, 0.212);
+    background: rgba(152, 215, 194, 0.31);
+    /* background: rgba(10, 83, 48, 0.212); */
 }
 
 .inner-article {
@@ -76,10 +84,11 @@
     font-weight: bold;
 }
 .article-header-dark{
-    background: rgba(78, 166, 132, 0.322);
+    background: rgba(78, 166, 132, 0.453);
 }
 .article-header-light{
-    background: rgba(78, 168, 134, 0.142);
+    /* background: rgba(112, 206, 145, 0.123); */
+    background: rgba(78, 168, 134, 0.452);
 }
 
 .experience-container {
@@ -90,13 +99,10 @@
     align-items: center;
 }
 
-/* .contact-container {
-    font-size: 20px;
-    font-weight: bold;
-} */
-
 .contact-button {
-   width: 160px;
+   width: 165px;
+   --primary: #1078a4;
+   --primary-hover: #189AB4;
 }
 
 .contact-name {
@@ -121,10 +127,29 @@
     margin-bottom: 40px;
 }
 
+.button-dark {
+    --primary: #0288c2;
+    --primary-hover: #1883b4;
+}
+.button-light {
+    --primary: #068b9c;
+    --primary-hover: #13a3c7;
+    
+}
+
 .header-icons {
     display: flex;
     justify-content: center;
     gap: 3rem;
+}
+.header-icons-dark{
+    --primary: #0288c2;
+    --primary-hover: #1883b4;
+}
+.header-icons-light{
+    --primary: #068b9c;
+    --primary-hover: #13a3c7;
+
 }
 .header-icon {
     width: 30px;
