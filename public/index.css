@@ -18,6 +18,11 @@
     margin-top: 1rem;
 }
 
+.portfolio-icon {
+    height: auto;
+    width: 30px;
+}
+
 .skill-container {
     display: flex;
     flex-wrap: wrap;
@@ -159,10 +164,16 @@
 #home {
     justify-content: center;
     margin-bottom: 40px;
+    margin-top: 60px;
 }
 
 @media only screen and (max-width: 500px) {
-    #app{
+    #app {
         margin: .5em;
+    }
+
+    .nav-icon {
+        height: auto;
+        width: 25px;
     }
 }
