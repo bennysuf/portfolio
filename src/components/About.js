@@ -1,11 +1,9 @@
-function About({outer_article_className}) {
-  
+function About({ outer_article_className }) {
   return (
     <body id="about">
       <h3>About Me</h3>
       <article className={outer_article_className}>
-        <main class="container">
-          <article className="inner-article">
+        <article className="inner-article">
           <p>
             Passionate Full-Stack Developer with a creative flair, stemming from
             a background in photography. Proficient in Photoshop and image
@@ -14,8 +12,7 @@ function About({outer_article_className}) {
             collaborate in teams, and swiftly adapt. Quick learner with strong
             hands-on skills, consistently delivering results.
           </p>
-          </article>
-        </main>
+        </article>
       </article>
     </body>
   );
