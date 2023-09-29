@@ -1,4 +1,6 @@
 import projectList from "./ProjectList";
+import {RxVideo} from "react-icons/rx"
+import {PiGithubLogo} from "react-icons/pi"
 
 function ProjectCard({ theme, outer_article_className }) {
   const link_className = `${theme ? "button-dark" : "button-light"}`;
@@ -29,18 +31,22 @@ function ProjectCard({ theme, outer_article_className }) {
                         target="_blank"
                         rel="noreferrer"
                         className={link_className}
+                        data-tooltip="Github"
+                        data-placement="bottom"
                       >
-                        Github
+                        <PiGithubLogo className="portfolio-icon"/>
                       </a>
                     )}
                     {video && (
                       <a
-                        href={video}
-                        target="_blank"
-                        rel="noreferrer"
+                      href={video}
+                      target="_blank"
+                      rel="noreferrer"
                         className={link_className}
-                      >
-                        Video
+                        data-tooltip="Video"
+                        data-placement="bottom"
+                        >
+                        <RxVideo className="portfolio-icon"/>
                       </a>
                     )}
                   </div>
