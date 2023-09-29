@@ -87,8 +87,7 @@
     background: rgba(78, 166, 132, 0.453);
 }
 .article-header-light{
-    /* background: rgba(112, 206, 145, 0.123); */
-    background: rgba(78, 168, 134, 0.452);
+    background: rgba(112, 206, 145, 0.123);
 }
 
 .experience-container {
@@ -160,4 +159,10 @@
 #home {
     justify-content: center;
     margin-bottom: 40px;
+}
+
+@media only screen and (max-width: 500px) {
+    #app{
+        margin: .5em;
+    }
 }
