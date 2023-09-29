@@ -14,7 +14,7 @@ function NavBar({theme}) {
       <ul>
         <li key="home">
           <Link smooth to="#home" data-tooltip="Home" data-placement="bottom">
-            <FiHome />
+            <FiHome className="nav-icon"/>
           </Link>
         </li>
         <li key="project">
@@ -24,7 +24,7 @@ function NavBar({theme}) {
             data-tooltip="Projects"
             data-placement="bottom"
           >
-            <PiCodeBold />
+            <PiCodeBold className="nav-icon"/>
           </Link>
         </li>
         <li key="experience">
@@ -34,12 +34,12 @@ function NavBar({theme}) {
             data-tooltip="Tech stack"
             data-placement="bottom"
           >
-            <PiStackBold />
+            <PiStackBold className="nav-icon"/>
           </Link>
         </li>
         <li key="about">
           <Link smooth to="#about" data-tooltip="About" data-placement="bottom">
-            <FaRegUser />
+            <FaRegUser className="nav-icon"/>
           </Link>
         </li>
         <li key="contact">
@@ -49,7 +49,7 @@ function NavBar({theme}) {
             data-tooltip="Contact"
             data-placement="bottom"
           >
-            <FaRegEnvelope />
+            <FaRegEnvelope className="nav-icon"/>
           </Link>
         </li>
       </ul>
