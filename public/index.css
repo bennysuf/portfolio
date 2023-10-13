@@ -32,11 +32,11 @@
 }
 
 .skills{
-    border-radius: 15px;
+    border-radius: 8px;
     background: rgba(125, 145, 133, 0.2);
     padding: 0 1rem;
     font-size: 14px;
-    border: .5px solid #000000;
+    /* border: .5px solid #000000; */
 }
 
 .skill-icon {
