@@ -1,10 +1,3 @@
-/* :root{
-    --primary: #00897b;
-    --primary-hover: #28b0a2;
-    --primary-focus: rgba(0, 137, 123, .25);
-    --primary-inverse: #FFF
-} */
-
  #app {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -36,7 +29,6 @@
     background: rgba(125, 145, 133, 0.2);
     padding: 0 1rem;
     font-size: 14px;
-    /* border: .5px solid #000000; */
 }
 
 .skill-icon {
@@ -68,19 +60,15 @@
 }
 .outer-article-dark {
     background: rgba(117, 230, 219, 0.277);
-    /* background: rgba(24, 123, 75, 0.212); */
 }
 .outer-article-light {
     background: rgba(152, 215, 194, 0.31);
-    /* background: rgba(10, 83, 48, 0.212); */
 }
 
 .inner-article {
     border-radius: 20px;
-    /* background: rgba(56, 157, 118, 0.328); */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 
 .article-header {
     border-top-left-radius: 20px;
