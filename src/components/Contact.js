@@ -14,7 +14,7 @@ function Contact({ outer_article_className, theme }) {
           <div>
             <article className="inner-article">
               <AiOutlineMail className="contact-icon" />
-              <h4 className="contact-name">Bennysuf@gmail.com</h4>
+              <h4 className="contact-name">bennysuf@gmail.com</h4>
               <a
                 role="button"
                 href="mailto:bennysuf@gmail.com"
