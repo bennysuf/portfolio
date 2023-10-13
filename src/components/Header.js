@@ -9,10 +9,8 @@ function Header({theme}) {
 
   return (
     <body id="home">
-      <h4>Hi, I'm</h4>
-      <h2>Benny Sufrin.</h2>
-      <h4>I build things as a</h4>
-      <h3>Full-stack Developer.</h3>
+      <h2>Benny Sufrin</h2>
+      <h3>Full-stack Developer</h3>
       <div class="grid" className="header-buttons">
         <a
           href="https://github.com"
