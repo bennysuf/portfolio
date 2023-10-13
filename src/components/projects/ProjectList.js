@@ -9,8 +9,8 @@ const projectList = [
   },
   {
     id: 2,
-    name: "Moms Cookbook",
-    description: "An individualized recipe tracker app",
+    name: "Mom's Cookbook",
+    description: "An individual recipe app that enables users to create, add, and view recipes efficiently.",
     techStack: ["React", "Rails", "SQLite"],
     github: "https://github.com/bennysuf/moms-cook-book",
     video: "https://youtu.be/tjT1x5CfWpk?si=KRnfoo_9W2y0FX5i",
@@ -18,7 +18,7 @@ const projectList = [
   {
     id: 3,
     name: "Twidler",
-    description: "A peer-to-peer social media web app for thoughts and ideas",
+    description: "A peer-to-peer social media web app enabling users to post and view short messages.",
     techStack: ["React", "Ruby", "Sinatra", "SQLite"],
     github: "https://github.com/bennysuf/twidler-frontend",
     video: "https://youtu.be/meK-mR5-XNU?si=F_bBvR6gJXeS3Av3",
