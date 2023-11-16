@@ -8,7 +8,7 @@ function Contact({ outer_article_className, theme }) {
 
   return (
     <body id="contact">
-      <h3>Contact</h3>
+      <h3 className="header">Contact</h3>
       <article className={outer_article_className}>
         <div class="grid">
           <div>

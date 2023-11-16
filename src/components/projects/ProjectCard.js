@@ -10,7 +10,7 @@ function ProjectCard({ theme, outer_article_className }) {
 
   return (
     <body id="project">
-      <h3>Projects</h3>
+      <h3 className="header">Projects</h3>
       <article className={outer_article_className}>
         <div class="grid">
           {projectList.map((project) => {

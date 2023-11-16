@@ -1,10 +1,10 @@
 function About({ outer_article_className }) {
   return (
     <body id="about">
-      <h3>About Me</h3>
+      <h3 className="header">About Me</h3>
       <article className={outer_article_className}>
         <article className="inner-article">
-          <p>
+          <p className="about-paragraph">
             Passionate Full-Stack Developer with a creative flair, stemming from
             a background in photography. Proficient in Photoshop and image
             compositing. Adept at conceiving, refining, and troubleshooting
