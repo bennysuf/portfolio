@@ -9,7 +9,7 @@ function Header({theme}) {
 
   return (
     <body id="home">
-      <h2>Benny Sufrin</h2>
+      <h1 style={{marginBottom: "20px"}}>Benny Sufrin</h1>
       <h3>Full-stack Developer</h3>
       <div class="grid" className="header-buttons">
         <a
