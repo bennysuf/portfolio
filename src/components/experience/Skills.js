@@ -6,7 +6,8 @@ import { FaPython } from "react-icons/fa";
 import { AiFillHtml5 } from "react-icons/ai";
 import { DiCss3 } from "react-icons/di";
 import { AiOutlineConsoleSql } from "react-icons/ai";
-import { SiPostgresql } from "react-icons/si";
+// import { SiPostgresql } from "react-icons/si";
+import {BiLogoPostgresql} from "react-icons/bi";
 import { SiSqlite } from "react-icons/si";
 import { SiFirebase } from "react-icons/si";
 import { SiRubysinatra } from "react-icons/si";
@@ -73,7 +74,8 @@ const skillSet = [
   {
     id: 9,
     name: "PostgreSQL",
-    icon: <SiPostgresql className="skill-icon"/>,
+    // icon: <SiPostgresql className="skill-icon"/>,
+    icon: <BiLogoPostgresql className="skill-icon"/>,
     type: "database",
     category: "backend",
   },
