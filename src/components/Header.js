@@ -14,7 +14,6 @@ function Header({theme}) {
       <div class="grid" className="header-buttons">
         <a
           href="https://docs.google.com/document/d/e/2PACX-1vS3i-3O0XZbbNBZ9tPTCr068-8lmi__pcH5rocFyneGl0UkKvZqCdNd3uN8kL2Ij_ZhdZUQ67bxx4GR/pub"
-          // TODO add resume link
           role="button"
           target="_blank"
           rel="noreferrer"
