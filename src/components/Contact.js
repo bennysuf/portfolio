@@ -1,5 +1,6 @@
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { AiOutlineMail } from "react-icons/ai";
+import { ImWhatsapp } from "react-icons/im";
 
 function Contact({ outer_article_className, theme }) {
   const button_className = `contact-button ${
@@ -36,6 +37,21 @@ function Contact({ outer_article_className, theme }) {
                 rel="noreferrer"
               >
                 Let's connect
+              </a>
+            </article>
+          </div>
+          <div>
+            <article className="inner-article">
+              <ImWhatsapp className="contact-icon" />
+              <h4 className="contact-name">(347)-833-7852</h4>
+              <a
+                role="button"
+                href="https://api.whatsapp.com/send?phone=3478337852"
+                className={button_className}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Message
               </a>
             </article>
           </div>
