@@ -6,3 +6,6 @@
 
 ## Website
    [Link to site](https://my-portfolio-b4e37.web.app)
+
+
+    Design inspirited by Jessica Vaughn
