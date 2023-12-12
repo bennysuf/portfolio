@@ -46,7 +46,7 @@ function Contact({ outer_article_className, theme }) {
               <h4 className="contact-name">(347)-833-7852</h4>
               <a
                 role="button"
-                href="https://api.whatsapp.com/send?phone=3478337852"
+                href="https://api.whatsapp.com/send?phone=3478337852&text=Hey Benny, let's connect!"
                 className={button_className}
                 target="_blank"
                 rel="noreferrer"
