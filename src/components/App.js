@@ -45,7 +45,7 @@ function App() {
 export default App;
 
 // TODO have fake drop down with a down or up arrow, when clicked, change state, ternary to see if arrow is up or down, display card or a bar with component title
-// TODO add data-theme="dark" to top element, have onclick to change it
-// TODO resize for mobile
 // TODO make filter for tech stack
-// TODO overwrite button color 
+// TODO remove dark mode color theme
+
+//? how to import a pdf file into component?
